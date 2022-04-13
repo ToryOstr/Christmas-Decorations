@@ -1,0 +1,134 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Meie Script", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #e2fedf;
+  padding-bottom: 40px;
+}
+
+.header {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 80%;
+  height: 36px;
+  margin: 40px;
+  font-family: "Meie Script", cursive;
+  font-size: 32px;
+  color: #074401;
+}
+.basket_btn_link {
+  display: flex;
+  flex-direction: row;
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  padding: 4px 56px;
+  margin: 40px;
+  border-radius: 24px;
+  border: 1px solid #074401;
+  background-color: #a4fcb7;
+  color: #074401;
+  cursor: pointer;
+}
+
+.basket_btn_item {
+  margin-left: 4px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0 40px 0 40px;
+  padding: 12px 20px 68px 20px;
+  background-color: white;
+  color: #074401;
+  border: 1px solid #074401;
+}
+
+.title_nav {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.contacts_link {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0;
+}
+
+.contacts_link_icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon_link {
+  margin-top: 60px;
+  padding: 0 16px 0 0;
+}
+
+.nav_link {
+  line-height: 24px;
+  font-size: 18px;
+  color: #074401;
+  text-decoration: none;
+}
+
+.tel_link {
+  line-height: 48px;
+}
+
+.tab_header {
+  text-align: left;
+  color: #074401;
+  font-size: 36px;
+  line-height: 48px;
+  margin-left: 12px;
+}
+table {
+  width: 80%;
+  border: 1px solid #074401;
+  margin-right: 40px;
+  background-color: white;
+}
+.ware_toys {
+  margin: 10px;
+  text-align: center;
+}
+.style_images {
+  display: block;
+  width: 200px;
+  margin: 10px 12px;
+  border: 2px solid white;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+.wares_btn {
+  display: block;
+  font-family: roboto;
+  font-size: 18px;
+  color: #074401;
+  border-radius: 24px;
+  background-color: #a4fcb7;
+  border: 1px solid #074401;
+  padding: 4px 10px;
+  margin: 20px 28px;
+  text-decoration: none;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #074401;
+}
